@@ -1,4 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Set up
+
+1. Run `npm install`
+
+2. Create src/firebase.js with the following contents:
+
+`import firebase from 'firebase';
+
+const firebaseConfig = {
+  // config file from Firebase Console
+};
+
+const firebaseApp = firebase.initializeApp(firebaseConfig);`
+
 
 ## Available Scripts
 
